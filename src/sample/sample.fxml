@@ -1,8 +1,753 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1"
+          xmlns="http://javafx.com/javafx/10.0.2-internal" stylesheets="@StyleSheet.css"
+          fx:controller="sample.Controller" styleClass="GridPane">
+    <children>
+        <ImageView fx:id="Flour1" onMouseClicked="#flour1Change" GridPane.columnIndex="5" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour2" onMouseClicked="#flour2Change" GridPane.columnIndex="5" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour3" onMouseClicked="#flour3Change" GridPane.columnIndex="5" GridPane.rowIndex="4" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour4" onMouseClicked="#flour4Change" GridPane.columnIndex="5" GridPane.rowIndex="5" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour5" onMouseClicked="#flour5Change" GridPane.columnIndex="5" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour6" onMouseClicked="#flour6Change" GridPane.columnIndex="5" GridPane.rowIndex="7" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour7" onMouseClicked="#flour7Change" GridPane.columnIndex="5" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour8" onMouseClicked="#flour8Change" GridPane.columnIndex="5" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour9" onMouseClicked="#flour9Change" GridPane.columnIndex="7" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour10" onMouseClicked="#flour10Change" GridPane.columnIndex="7" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour11" onMouseClicked="#flour11Change" GridPane.columnIndex="7" GridPane.rowIndex="4" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour12" onMouseClicked="#flour12Change" GridPane.columnIndex="7" GridPane.rowIndex="5" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour13" onMouseClicked="#flour13Change" GridPane.columnIndex="7" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour14" onMouseClicked="#flour14Change" GridPane.columnIndex="7" GridPane.rowIndex="7" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour15" onMouseClicked="#flour15Change" GridPane.columnIndex="7" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour16" onMouseClicked="#flour16Change" GridPane.columnIndex="7" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour17" onMouseClicked="#flour17Change" GridPane.columnIndex="9" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour18" onMouseClicked="#flour18Change" GridPane.columnIndex="9" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour19" onMouseClicked="#flour19Change" GridPane.columnIndex="9" GridPane.rowIndex="4" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour20" onMouseClicked="#flour20Change" GridPane.columnIndex="9" GridPane.rowIndex="5" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour21" onMouseClicked="#flour21Change" GridPane.columnIndex="9" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour22" onMouseClicked="#flour22Change" GridPane.columnIndex="9" GridPane.rowIndex="7" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour23" onMouseClicked="#flour23Change" GridPane.columnIndex="9" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour24" onMouseClicked="#flour24Change" GridPane.columnIndex="9" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour25" onMouseClicked="#flour25Change" GridPane.columnIndex="11" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour26" onMouseClicked="#flour26Change" GridPane.columnIndex="11" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour27" onMouseClicked="#flour27Change" GridPane.columnIndex="11" GridPane.rowIndex="4" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour28" onMouseClicked="#flour28Change" GridPane.columnIndex="11" GridPane.rowIndex="5" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour29" onMouseClicked="#flour29Change" GridPane.columnIndex="11" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour30" onMouseClicked="#flour30Change" GridPane.columnIndex="11" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour31" onMouseClicked="#flour31Change" GridPane.columnIndex="11" GridPane.rowIndex="7" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour32" onMouseClicked="#flour32Change" GridPane.columnIndex="11" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour33" onMouseClicked="#flour33Change" GridPane.columnIndex="11" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour34" onMouseClicked="#flour34Change" GridPane.columnIndex="6" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour35" onMouseClicked="#flour35Change" GridPane.columnIndex="6" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour36" onMouseClicked="#flour36Change" GridPane.columnIndex="6" GridPane.rowIndex="5" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour37" onMouseClicked="#flour37Change" GridPane.columnIndex="6" GridPane.rowIndex="4" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour38" onMouseClicked="#flour38Change" GridPane.columnIndex="6" GridPane.rowIndex="7" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour39" onMouseClicked="#flour39Change" GridPane.columnIndex="6" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour40" onMouseClicked="#flour40Change" GridPane.columnIndex="6" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour41" onMouseClicked="#flour41Change" GridPane.columnIndex="6" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour42" onMouseClicked="#flour42Change" GridPane.columnIndex="8" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour43" onMouseClicked="#flour43Change" GridPane.columnIndex="8" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour44" onMouseClicked="#flour44Change" GridPane.columnIndex="8" GridPane.rowIndex="5" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour45" onMouseClicked="#flour45Change" GridPane.columnIndex="8" GridPane.rowIndex="4" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour46" onMouseClicked="#flour46Change" GridPane.columnIndex="8" GridPane.rowIndex="7" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour47" onMouseClicked="#flour47Change" GridPane.columnIndex="8" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour48" onMouseClicked="#flour48Change" GridPane.columnIndex="8" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour49" onMouseClicked="#flour49Change" GridPane.columnIndex="8" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour50" onMouseClicked="#flour50Change" GridPane.columnIndex="10" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour51" onMouseClicked="#flour51Change" GridPane.columnIndex="10" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour52" onMouseClicked="#flour52Change" GridPane.columnIndex="10" GridPane.rowIndex="5" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour53" onMouseClicked="#flour53Change" GridPane.columnIndex="10" GridPane.rowIndex="4" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour54" onMouseClicked="#flour54Change" GridPane.columnIndex="10" GridPane.rowIndex="7" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour55" onMouseClicked="#flour55Change" GridPane.columnIndex="10" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour56" onMouseClicked="#flour56Change" GridPane.columnIndex="10" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour57" onMouseClicked="#flour57Change" GridPane.columnIndex="10" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour58" onMouseClicked="#flour58Change" GridPane.columnIndex="12" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour59" onMouseClicked="#flour59Change" GridPane.columnIndex="12" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour60" onMouseClicked="#flour60Change" GridPane.columnIndex="12" GridPane.rowIndex="5" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour61" onMouseClicked="#flour61Change" GridPane.columnIndex="12" GridPane.rowIndex="4" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour62" onMouseClicked="#flour62Change" GridPane.columnIndex="12" GridPane.rowIndex="7" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour63" onMouseClicked="#flour63Change" GridPane.columnIndex="12" GridPane.rowIndex="6" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled2.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView fx:id="Flour64" onMouseClicked="#flour64Change" GridPane.columnIndex="12" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/Untitled.png">
+
+                </Image>
+            </image>
+        </ImageView>
+
+
+
+        <ImageView fx:id = "WhiteB1" GridPane.columnIndex="7" GridPane.rowIndex="9" fitHeight="80" fitWidth="80" onMouseClicked="#pieceMove">
+            <image>
+                <Image url="/wb.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="10" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wb.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="9" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wk.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wn.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="11" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wn.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="7" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="8" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="9" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="10" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="11" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="12" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="8" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wq.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="12" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wr.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/wr.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="7" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bb.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="10" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bb.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="9" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bk.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bn.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="11" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bn.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="6" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="7" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="8" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="9" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="10" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="11" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="12" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bp.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="8" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/bq.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="12" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/br.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <ImageView GridPane.columnIndex="5" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+            <image>
+                <Image url="/br.png">
+
+                </Image>
+            </image>
+        </ImageView>
+        <Label text="A" GridPane.columnIndex="5" GridPane.rowIndex="10" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.fillHeight="5" GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="B" GridPane.columnIndex="6" GridPane.rowIndex="10" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.fillHeight="5" GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="C" GridPane.columnIndex="7" GridPane.rowIndex="10" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.fillHeight="5" GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="D" GridPane.columnIndex="8" GridPane.rowIndex="10" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.fillHeight="5" GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="E" GridPane.columnIndex="9" GridPane.rowIndex="10" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.fillHeight="5" GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="F" GridPane.columnIndex="10" GridPane.rowIndex="10" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.fillHeight="5" GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="G" GridPane.columnIndex="11" GridPane.rowIndex="10" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.fillHeight="5" GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="H" GridPane.columnIndex="12" GridPane.rowIndex="10" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.fillHeight="5" GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="7" GridPane.columnIndex="1" GridPane.rowIndex="3" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="6" GridPane.columnIndex="1" GridPane.rowIndex="4" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="5" GridPane.columnIndex="1" GridPane.rowIndex="5" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="4" GridPane.columnIndex="1" GridPane.rowIndex="6" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="3" GridPane.columnIndex="1" GridPane.rowIndex="7" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="2" GridPane.columnIndex="1" GridPane.rowIndex="8" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.valignment="CENTER">
+
+        </Label>
+        <Label text="1" GridPane.columnIndex="1" GridPane.rowIndex="9" styleClass="label" GridPane.halignment="CENTER"
+               GridPane.valignment = "CENTER">
+
+        </Label>
+
+
+    </children>
 </GridPane>

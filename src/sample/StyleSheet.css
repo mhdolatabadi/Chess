@@ -1,0 +1,13 @@
+.GridPane{
+    -fx-border-width: 5px;
+    -fx-border-color: chocolate;
+    -fx-background-color: darkgoldenrod;
+}
+.label{
+    -fx-font-family: Broadway;
+    -fx-text-fill: Black;
+    -fx-font-size: 30pt;
+    -fx-border-color: black;
+    -fx-border-radius: 20px;
+
+}
