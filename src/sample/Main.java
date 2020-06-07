@@ -2,23 +2,20 @@ package sample;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Menu;
-import javafx.scene.control.MenuBar;
-import javafx.scene.control.MenuItem;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.VBox;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.net.URISyntaxException;
 
 public class Main extends Application {
+    Media move = new Media(getClass().getResource("/ground.mpeg").toURI().toString());
+    MediaPlayer movePlayer = new MediaPlayer(move);
 
-
+    public Main() throws URISyntaxException {
+    }
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -27,9 +24,8 @@ public class Main extends Application {
         primaryStage.setTitle("Pro Chess");
         primaryStage.setScene(gameScene);
         primaryStage.show();
+        movePlayer.setAutoPlay(true);
     }
-
-
 
     public static void main(String[] args) {
         launch(args);

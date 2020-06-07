@@ -460,168 +460,168 @@
 
 
 
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="7" GridPane.rowIndex="9" fitHeight="80" fitWidth="80" >
+        <ImageView onMouseClicked="#select" id="whiteBishop"  GridPane.columnIndex="7" GridPane.rowIndex="9" fitHeight="80" fitWidth="80" >
             <image>
                 <Image url="/wb.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="10" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whiteBishop" GridPane.columnIndex="10" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wb.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="9" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whiteKing" GridPane.columnIndex="9" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wk.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="6" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whiteKnight" GridPane.columnIndex="6" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wn.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="11" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whiteKnight" GridPane.columnIndex="11" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wn.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="5" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whitePown" GridPane.columnIndex="5" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="6" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whitePown" GridPane.columnIndex="6" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="7" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whitePown" GridPane.columnIndex="7" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="8" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whitePown" GridPane.columnIndex="8" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="9" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whitePown" GridPane.columnIndex="9" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="10" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whitePown" GridPane.columnIndex="10" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="11" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whitePown" GridPane.columnIndex="11" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="12" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whitePown" GridPane.columnIndex="12" GridPane.rowIndex="8" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="8" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whiteQueen" GridPane.columnIndex="8" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wq.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="12" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whiteRook" GridPane.columnIndex="12" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wr.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="5" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="whiteRook" GridPane.columnIndex="5" GridPane.rowIndex="9" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/wr.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="7" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackBishop" GridPane.columnIndex="7" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bb.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="10" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackBishop" GridPane.columnIndex="10" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bb.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="9" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackKing" GridPane.columnIndex="9" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bk.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="6" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackKnight" GridPane.columnIndex="6" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bn.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="11" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackKnight" GridPane.columnIndex="11" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bn.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="5" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackPown" GridPane.columnIndex="5" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="6" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackPown" GridPane.columnIndex="6" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="7" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackPown" GridPane.columnIndex="7" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
 
             <image>
 
@@ -630,56 +630,56 @@
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="8" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackPown" GridPane.columnIndex="8" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="9" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackPown" GridPane.columnIndex="9" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="10" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackPown" GridPane.columnIndex="10" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="11" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackPown" GridPane.columnIndex="11" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="12" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackPown" GridPane.columnIndex="12" GridPane.rowIndex="3" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bp.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="8" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackQueen" GridPane.columnIndex="8" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/bq.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="12" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackRook" GridPane.columnIndex="12" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/br.png">
 
                 </Image>
             </image>
         </ImageView>
-        <ImageView onMouseClicked="#select" GridPane.columnIndex="5" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
+        <ImageView onMouseClicked="#select" id="blackRook" GridPane.columnIndex="5" GridPane.rowIndex="2" fitHeight="80" fitWidth="80">
             <image>
                 <Image url="/br.png">
 
